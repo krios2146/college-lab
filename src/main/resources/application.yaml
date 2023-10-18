@@ -4,3 +4,6 @@ spring:
     password: root
     url: jdbc:postgresql://localhost:5432/college-lab
     driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
